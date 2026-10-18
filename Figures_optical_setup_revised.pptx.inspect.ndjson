@@ -1,0 +1,86 @@
+{"kind":"deck","id":"pr/67bp0i","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"8/10/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"subtitle","type":"subtitle","textPreview":"Click to edit Master subtitle style"},{"name":"dateTime","type":"dateTime","textPreview":"8/10/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Title and Content","type":"obj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"8/10/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"Section Header","type":"secHead","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"8/10/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"Two Content","type":"twoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"8/10/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"Comparison","type":"twoTxTwoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 5","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"8/10/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"Title Only","type":"titleOnly","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"dateTime","type":"dateTime","textPreview":"8/10/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout7.xml","name":"Blank","type":"blank","placeholders":[{"name":"dateTime","type":"dateTime","textPreview":"8/10/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout8.xml","name":"Content with Caption","type":"objTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"8/10/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout9.xml","name":"Picture with Caption","type":"picTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"picture","type":"picture"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"8/10/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout10.xml","name":"Title and Vertical Text","type":"vertTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"8/10/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout11.xml","name":"Vertical Title and Text","type":"vertTitleAndTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"8/10/26"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"Synchronized acquisition software","textShapes":18}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"name":"Rectangle 6","text":"Synchronized acquisition software","textPreview":"Synchronized acquisition software","textChars":33,"textLines":1,"bbox":[100,430,1080,146]}
+{"kind":"textbox","id":"sh/fu94fe98","slide":1,"name":"TextBox 7","text":"Image-guided optics connect target selection to Raman spectra","textPreview":"Image-guided optics connect target selection to Raman spectra","textChars":61,"textLines":1,"bbox":[48,24,1184,52.8]}
+{"kind":"textbox","id":"sh/utg3698n","slide":1,"name":"Rectangle 8","text":"785-nm laser","textPreview":"785-nm laser","textChars":12,"textLines":1,"bbox":[64,200,160,76]}
+{"kind":"textbox","id":"sh/wn6dc7eh","slide":1,"name":"TextBox 9","text":"Steerable 785-nm confocal optics and synchronized controls enable repeatable, spatially targeted acquisition.","textPreview":"Steerable 785-nm confocal optics and synchronized controls enable repeatable, spatially targeted acquisition.","textChars":109,"textLines":1,"bbox":[50,76,1180,38.4]}
+{"kind":"textbox","id":"sh/1cvuxc7e","slide":1,"name":"Rectangle 19","text":"Galvo steering\n+ scan optics","textPreview":"Galvo steering | + scan optics","textChars":28,"textLines":2,"bbox":[496,200,188,76]}
+{"kind":"textbox","id":"sh/e94v2hon","slide":1,"name":"Rectangle 22","text":"Fiber-coupled\nspectrograph","textPreview":"Fiber-coupled | spectrograph","textChars":26,"textLines":2,"bbox":[1056,200,160,76]}
+{"kind":"textbox","id":"sh/uxgjq907","slide":1,"name":"TextBox 29","text":"785-nm excitation","textPreview":"785-nm excitation","textChars":17,"textLines":1,"bbox":[454,326,170,60.8]}
+{"kind":"textbox","id":"sh/wzy1szid","slide":1,"name":"TextBox 31","text":"Raman return","textPreview":"Raman return","textChars":12,"textLines":1,"bbox":[724,326,150,60.8]}
+{"kind":"textbox","id":"sh/54r2poju","slide":1,"name":"TextBox 36","text":"Acquire spectrum + time-indexed metadata","textPreview":"Acquire spectrum + time-indexed metadata","textChars":40,"textLines":1,"bbox":[852,459,276,82]}
+{"kind":"textbox","id":"sh/9sfylgbq","slide":1,"name":"TextBox 45","text":"Image and select target","textPreview":"Image and select target","textChars":23,"textLines":1,"bbox":[204,469,238,64]}
+{"kind":"textbox","id":"sh/buh0nqtg","slide":1,"name":"TextBox 47","text":"Aim, move, and autofocus","textPreview":"Aim, move, and autofocus","textChars":24,"textLines":1,"bbox":[528,469,238,64]}
+{"kind":"textbox","id":"sh/t0jyd0ru","slide":1,"name":"Rectangle 50","text":"Power control\n+ shutter","textPreview":"Power control | + shutter","textChars":23,"textLines":2,"bbox":[280,200,160,76]}
+{"kind":"textbox","id":"sh/yt8fyl87","slide":1,"name":"TextBox 55","text":"785-nm excitation   •   60× water immersion, NA 1.2   •   Galvo + motorized XY stage   •   Fiber-coupled spectrograph   •   DAQ-synchronized control","textPreview":"785-nm excitation   •   60× water immersion, NA 1.2   •   Galvo + motorized XY stage   •   Fiber-coupled spectrograph   •   DAQ-synchroni...","textChars":148,"textLines":1,"bbox":[50,632,1180,36]}
+{"kind":"textbox","id":"sh/juhg7q9s","slide":1,"name":"Rectangle 56","text":"Confocal microscope\n60× water objective, NA 1.2","textPreview":"Confocal microscope | 60× water objective, NA 1.2","textChars":47,"textLines":2,"bbox":[760,172,230,134]}
+{"kind":"textbox","id":"sh/wr6xwbq1","slide":1,"text":"sample","textPreview":"sample","textChars":6,"textLines":1,"bbox":[840,255,72,34]}
+{"kind":"textbox","id":"sh/xsfy5grm","slide":1,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[158,484,34,34]}
+{"kind":"textbox","id":"sh/dc7md8fe","slide":1,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[482,484,34,34]}
+{"kind":"textbox","id":"sh/cby5k3yt","slide":1,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[806,484,34,34]}
+{"kind":"shape","id":"sh/ra54bix8","slide":1,"bbox":[224,230,56,16]}
+{"kind":"shape","id":"sh/q9wnidgn","slide":1,"bbox":[440,230,56,16]}
+{"kind":"shape","id":"sh/5onm98f2","slide":1,"bbox":[684,230,76,16]}
+{"kind":"shape","id":"sh/4ne5g3yh","slide":1,"bbox":[990,230,66,16]}
+{"kind":"shape","id":"sh/3m547yxw","slide":1,"bbox":[390,337,54,10]}
+{"kind":"shape","id":"sh/ilw3etgr","slide":1,"bbox":[660,337,54,10]}
+{"kind":"shape","id":"sh/9kr6lsfm","slide":1,"bbox":[44,616,1192,2]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"[Sources]\n- Original optical schematic and system specifications: user-provided Figures.pptx, slide 1."}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"Segment and tracking","textShapes":1}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"name":"Content Placeholder 2","text":"Segment and tracking","textPreview":"Segment and tracking","textChars":20,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/6d8jed0r","slide":2,"name":"Picture 3","bbox":[347.45,27.76,816,664.49]}
+{"kind":"image","id":"im/7eh0ny1c","slide":2,"name":"Picture 5","bbox":[627.21,329.17,12.11,6.06]}
+{"kind":"image","id":"im/8fa1g3ix","slide":2,"name":"Picture 7","bbox":[643.99,358.76,9.6,4.8]}
+{"kind":"image","id":"im/tgjip8ji","slide":2,"name":"Picture 8","bbox":[642.66,406.09,16,5.33]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":""}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"ND Filter Inserted","textShapes":2}
+{"kind":"shape","id":"sh/m5cra54z","slide":3,"name":"Right Arrow 7","bbox":[304.21,149.38,227.12,51.27]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"name":"TextBox 8","text":"ND Filter Inserted\n","textPreview":"ND Filter Inserted |","textChars":19,"textLines":2,"bbox":[304.21,155.27,210.43,67.86]}
+{"kind":"shape","id":"sh/943mhgre","slide":3,"name":"Right Arrow 11","bbox":[725.54,149.38,210.43,51.27]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"name":"TextBox 12","text":"Laser Autofocus \n","textPreview":"Laser Autofocus  |","textChars":17,"textLines":2,"bbox":[725.54,155.27,194.96,67.86]}
+{"kind":"image","id":"im/gne5cvel","slide":3,"name":"Picture 3","bbox":[32.97,208.58,375.85,375.85]}
+{"kind":"image","id":"im/hon6lgv6","slide":3,"name":"Picture 4","bbox":[429.02,208.58,381.53,375.85]}
+{"kind":"image","id":"im/ulcnalwf","slide":3,"name":"Picture 5","bbox":[833.04,208.58,364.85,375.85]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":""}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"Vandermonde","textShapes":4}
+{"kind":"shape","id":"sh/3ihk3et8","slide":4,"name":"Donut 7","bbox":[232.99,393.7,21.36,21.36]}
+{"kind":"shape","id":"sh/i94r6xgz","slide":4,"name":"Donut 11","bbox":[942.15,212.37,21.36,21.36]}
+{"kind":"shape","id":"sh/jadsz2xk","slide":4,"name":"Donut 12","bbox":[945.96,521.8,21.36,21.36]}
+{"kind":"textbox","id":"sh/h4fa9wfy","slide":4,"name":"TextBox 18","text":"Vandermonde\nMatrix","textPreview":"Vandermonde | Matrix","textChars":18,"textLines":2,"bbox":[517.64,227.06,177.87,67.86]}
+{"kind":"shape","id":"sh/p0batw72","slide":4,"name":"Right Arrow 19","bbox":[425.49,342.37,62.67,31.04]}
+{"kind":"shape","id":"sh/oz29krqh","slide":4,"name":"Right Arrow 20","bbox":[724.54,399.54,62.67,31.04]}
+{"kind":"shape","id":"sh/3ytsrmpw","slide":4,"name":"Right Arrow 21","bbox":[722.84,291.04,62.67,31.04]}
+{"kind":"textbox","id":"sh/2xkrih8b","slide":4,"name":"TextBox 22","text":"Selection based on live BF","textPreview":"Selection based on live BF","textChars":26,"textLines":1,"bbox":[154.97,305.2,180,96.94]}
+{"kind":"textbox","id":"sh/1wbapc7q","slide":4,"name":"TextBox 23","text":"Laser Aiming with Galvanometer","textPreview":"Laser Aiming with Galvanometer","textChars":30,"textLines":1,"bbox":[862.83,107.92,180,96.94]}
+{"kind":"textbox","id":"sh/gv29g7q5","slide":4,"name":"TextBox 24","text":"Stage Movement","textPreview":"Stage Movement","textChars":14,"textLines":1,"bbox":[866.64,453.94,180,67.86]}
+{"kind":"image","id":"im/w7u9kj25","slide":4,"name":"Content Placeholder 6","bbox":[791.5,365.44,333.54,334.08]}
+{"kind":"image","id":"im/x83qdojq","slide":4,"name":"Picture 3","bbox":[88,185.54,334.08,336.26]}
+{"kind":"image","id":"im/q9876pkv","slide":4,"name":"Picture 5","bbox":[791.06,10.51,333.97,333.97]}
+{"kind":"image","id":"im/bah8zulg","slide":4,"name":"Picture 13","bbox":[492.45,289.26,228.24,141.48]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":""}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"Spatial Heterogeneity of Lipid Signals attained","textShapes":1}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"name":"Title 1","placeholder":"title","text":"Spatial Heterogeneity of Lipid Signals attained","textPreview":"Spatial Heterogeneity of Lipid Signals attained","textChars":47,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/tkjutw7u","slide":5,"name":"Content Placeholder 9","bbox":[108.97,208.8,496,409.33]}
+{"kind":"image","id":"im/ulsbm18f","slide":5,"name":"Picture 10","bbox":[640,180.8,526.67,437.33]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":""}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"Spatial Heterogeneity of Lipid Signals attained","textShapes":1}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"name":"Title 1","placeholder":"title","text":"Spatial Heterogeneity of Lipid Signals attained","textPreview":"Spatial Heterogeneity of Lipid Signals attained","textChars":47,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/alg3a143","slide":6,"name":"Content Placeholder 5","bbox":[619.98,189,526.67,437.33]}
+{"kind":"image","id":"im/9k7m1w3i","slide":6,"name":"Picture 4","bbox":[76.69,209.78,496,409.33]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":""}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"U-MAP clustering of spectra by day label","textShapes":1}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"name":"Title 1","placeholder":"title","text":"U-MAP clustering of spectra by day label","textPreview":"U-MAP clustering of spectra by day label","textChars":40,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/jq14rap8","slide":7,"name":"Picture 3","bbox":[278.33,146.12,744.67,557.56]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":""}

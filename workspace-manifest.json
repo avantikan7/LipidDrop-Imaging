@@ -1,0 +1,11 @@
+{
+  "environment": "confocal_control_gui_cellpose4",
+  "cellpose": "4.2.1.1",
+  "branch": "neuron_imaging",
+  "components": {
+    "cns-control": "5aa970a7a45ca224152887e6874da5aca8f031d9",
+    "napari-raman-widget": "3b7cd0918a19cd1702b47ba936055b93e8ad9912",
+    "raman-control": "6a865a8e92689b88a041e05385cda9386079b83c",
+    "raman-mda-engine": "08bbfc2d2aaea2cf9166f8b64db0a5dae03d4038"
+  }
+}
