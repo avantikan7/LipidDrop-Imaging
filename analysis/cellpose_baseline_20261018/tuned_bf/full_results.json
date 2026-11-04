@@ -1,0 +1,102 @@
+[
+  {
+    "position": 4,
+    "well": "D5_0004",
+    "variant": "default",
+    "count": 196,
+    "parameters": {}
+  },
+  {
+    "position": 4,
+    "well": "D5_0004",
+    "variant": "selected",
+    "count": 217,
+    "parameters": {
+      "normalize": {
+        "tile_norm_blocksize": 128
+      },
+      "cellprob_threshold": 0.0,
+      "flow_threshold": 0.6
+    }
+  },
+  {
+    "position": 13,
+    "well": "D6_0004",
+    "variant": "default",
+    "count": 125,
+    "parameters": {}
+  },
+  {
+    "position": 13,
+    "well": "D6_0004",
+    "variant": "selected",
+    "count": 127,
+    "parameters": {
+      "normalize": {
+        "tile_norm_blocksize": 128
+      },
+      "cellprob_threshold": 0.0,
+      "flow_threshold": 0.6
+    }
+  },
+  {
+    "position": 22,
+    "well": "D7_0004",
+    "variant": "default",
+    "count": 160,
+    "parameters": {}
+  },
+  {
+    "position": 22,
+    "well": "D7_0004",
+    "variant": "selected",
+    "count": 163,
+    "parameters": {
+      "normalize": {
+        "tile_norm_blocksize": 128
+      },
+      "cellprob_threshold": 0.0,
+      "flow_threshold": 0.6
+    }
+  },
+  {
+    "position": 31,
+    "well": "D8_0004",
+    "variant": "default",
+    "count": 160,
+    "parameters": {}
+  },
+  {
+    "position": 31,
+    "well": "D8_0004",
+    "variant": "selected",
+    "count": 187,
+    "parameters": {
+      "normalize": {
+        "tile_norm_blocksize": 128
+      },
+      "cellprob_threshold": 0.0,
+      "flow_threshold": 0.6
+    }
+  },
+  {
+    "position": 40,
+    "well": "D9_0004",
+    "variant": "default",
+    "count": 29,
+    "parameters": {}
+  },
+  {
+    "position": 40,
+    "well": "D9_0004",
+    "variant": "selected",
+    "count": 55,
+    "parameters": {
+      "normalize": {
+        "tile_norm_blocksize": 128
+      },
+      "cellprob_threshold": 0.0,
+      "flow_threshold": 0.6
+    }
+  }
+]

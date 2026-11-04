@@ -1,0 +1,30 @@
+{
+  "model": "cpsam_v2",
+  "input_channel_indices": [
+    1,
+    2,
+    0
+  ],
+  "input_channels": [
+    "DAPI membrane",
+    "GFP nuclei",
+    "BF"
+  ],
+  "parameters": {
+    "channel_axis": 0,
+    "normalize": {
+      "tile_norm_blocksize": 128
+    },
+    "cellprob_threshold": 0.0,
+    "flow_threshold": 0.6,
+    "min_size": 15
+  },
+  "positions": [
+    31,
+    4,
+    13,
+    22,
+    40
+  ],
+  "comparison": "Existing full-field selected DAPI+GFP masks, same settings; no registration correction or model training."
+}

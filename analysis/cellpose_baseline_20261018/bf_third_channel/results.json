@@ -1,0 +1,91 @@
+[
+  {
+    "position": 31,
+    "well": "D8_0004",
+    "two_channel": {
+      "count": 187,
+      "coverage": 0.30611705780029297,
+      "median_area_px": 1325.0
+    },
+    "three_channel": {
+      "count": 161,
+      "coverage": 0.1951761245727539,
+      "median_area_px": 1130.0
+    },
+    "added_mask_pixels": 19693,
+    "removed_mask_pixels": 136023,
+    "seconds": 31.58,
+    "left_half_coverage": {
+      "two_channel": 0.4075279235839844,
+      "three_channel": 0.25460243225097656
+    }
+  },
+  {
+    "position": 4,
+    "well": "D5_0004",
+    "two_channel": {
+      "count": 217,
+      "coverage": 0.3449869155883789,
+      "median_area_px": 1483.0
+    },
+    "three_channel": {
+      "count": 187,
+      "coverage": 0.28169727325439453,
+      "median_area_px": 1311.0
+    },
+    "added_mask_pixels": 28514,
+    "removed_mask_pixels": 94878,
+    "seconds": 33.83
+  },
+  {
+    "position": 13,
+    "well": "D6_0004",
+    "two_channel": {
+      "count": 127,
+      "coverage": 0.21581649780273438,
+      "median_area_px": 1361.0
+    },
+    "three_channel": {
+      "count": 100,
+      "coverage": 0.1287994384765625,
+      "median_area_px": 982.5
+    },
+    "added_mask_pixels": 4859,
+    "removed_mask_pixels": 96103,
+    "seconds": 32.5
+  },
+  {
+    "position": 22,
+    "well": "D7_0004",
+    "two_channel": {
+      "count": 163,
+      "coverage": 0.24871063232421875,
+      "median_area_px": 1438.0
+    },
+    "three_channel": {
+      "count": 141,
+      "coverage": 0.17204952239990234,
+      "median_area_px": 1046.0
+    },
+    "added_mask_pixels": 20830,
+    "removed_mask_pixels": 101215,
+    "seconds": 32.97
+  },
+  {
+    "position": 40,
+    "well": "D9_0004",
+    "two_channel": {
+      "count": 55,
+      "coverage": 0.07005882263183594,
+      "median_area_px": 1210.0
+    },
+    "three_channel": {
+      "count": 2,
+      "coverage": 0.0024652481079101562,
+      "median_area_px": 1292.5
+    },
+    "added_mask_pixels": 802,
+    "removed_mask_pixels": 71679,
+    "seconds": 32.45
+  }
+]

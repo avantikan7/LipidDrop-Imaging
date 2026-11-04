@@ -1,0 +1,92 @@
+[
+  {
+    "position": 4,
+    "channel": "BF",
+    "p1": 7342.0,
+    "p99": 10571.0
+  },
+  {
+    "position": 4,
+    "channel": "DAPI membrane",
+    "p1": 479.0,
+    "p99": 830.0
+  },
+  {
+    "position": 4,
+    "channel": "GFP nuclei",
+    "p1": 392.0,
+    "p99": 1540.0
+  },
+  {
+    "position": 13,
+    "channel": "BF",
+    "p1": 7855.0,
+    "p99": 10739.0
+  },
+  {
+    "position": 13,
+    "channel": "DAPI membrane",
+    "p1": 472.0,
+    "p99": 693.0
+  },
+  {
+    "position": 13,
+    "channel": "GFP nuclei",
+    "p1": 390.0,
+    "p99": 1198.0
+  },
+  {
+    "position": 22,
+    "channel": "BF",
+    "p1": 7539.0,
+    "p99": 10538.0
+  },
+  {
+    "position": 22,
+    "channel": "DAPI membrane",
+    "p1": 483.0,
+    "p99": 840.0
+  },
+  {
+    "position": 22,
+    "channel": "GFP nuclei",
+    "p1": 394.0,
+    "p99": 1612.0
+  },
+  {
+    "position": 31,
+    "channel": "BF",
+    "p1": 7873.0,
+    "p99": 11312.0
+  },
+  {
+    "position": 31,
+    "channel": "DAPI membrane",
+    "p1": 472.0,
+    "p99": 666.0
+  },
+  {
+    "position": 31,
+    "channel": "GFP nuclei",
+    "p1": 390.0,
+    "p99": 1539.0
+  },
+  {
+    "position": 40,
+    "channel": "BF",
+    "p1": 7447.0,
+    "p99": 13063.0
+  },
+  {
+    "position": 40,
+    "channel": "DAPI membrane",
+    "p1": 477.0,
+    "p99": 686.0
+  },
+  {
+    "position": 40,
+    "channel": "GFP nuclei",
+    "p1": 385.0,
+    "p99": 441.0
+  }
+]

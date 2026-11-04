@@ -1,0 +1,24 @@
+{
+  "model": "cpsam_v2",
+  "config": "local128",
+  "normalize": {
+    "tile_norm_blocksize": 128
+  },
+  "cellprob_threshold": 0.0,
+  "flow_threshold": 0.6,
+  "min_size": 15,
+  "channel_axis": 0,
+  "channels": [
+    "DAPI membrane",
+    "GFP nuclei"
+  ],
+  "selection": "Visual review on central crops p004 and p031; nuclear overlap is a proxy, not ground truth.",
+  "full_positions": [
+    4,
+    13,
+    22,
+    31,
+    40
+  ],
+  "no_registration": "Channels overlaid at acquisition pixel coordinates; no registration correction applied."
+}

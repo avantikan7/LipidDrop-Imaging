@@ -1,0 +1,39 @@
+{
+  "source": "C:\\Users\\spraman\\Desktop\\Jeff\\neuron_imaging\\Imaging\\20261018_FP_autofocus_test_002",
+  "cellpose": "4.2.1.1",
+  "torch": "2.4.1+cpu",
+  "model": "cpsam_v2",
+  "device": "cpu",
+  "crop_yx": [
+    256,
+    768,
+    256,
+    768
+  ],
+  "positions": [
+    4,
+    13,
+    22,
+    31,
+    40
+  ],
+  "channels": {
+    "GFP_nuclei": [
+      2
+    ],
+    "DAPI_membrane": [
+      1
+    ],
+    "DAPI_GFP": [
+      1,
+      2
+    ],
+    "BF": [
+      0
+    ]
+  },
+  "eval_arguments": {
+    "channel_axis": 0
+  },
+  "other_eval_parameters": "installed defaults; no training, diameter adjustment, threshold sweep, or rescaling"
+}

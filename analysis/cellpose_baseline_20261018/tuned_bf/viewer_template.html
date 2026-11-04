@@ -1,0 +1,68 @@
+<div id="cellpose-bf-review">
+  <h3>GFP + DAPI segmentation on brightfield</h3>
+  <div class="viz-controls">
+    <label class="form-label">Field<select class="form-select" id="cp-field"></select></label>
+    <label class="form-label">Settings<select class="form-select" id="cp-variant"><option value="selected">Selected settings</option><option value="default">Default settings</option></select></label>
+    <label class="form-label">Zoom<select class="form-select" id="cp-zoom"><option value="1">Full field</option><option value="2">2×</option><option value="4">4×</option></select></label>
+  </div>
+  <div class="viz-row">
+    <label class="form-check"><input class="form-check-input" type="checkbox" id="cp-outline" checked><span class="form-check-label">Mask outlines</span></label>
+    <label class="form-check"><input class="form-check-input" type="checkbox" id="cp-fill"><span class="form-check-label">Mask fill</span></label>
+    <label class="form-check"><input class="form-check-input" type="checkbox" id="cp-ids"><span class="form-check-label">Object IDs</span></label>
+  </div>
+  <label class="form-label" for="cp-blend">BF ↔ fluorescence <span id="cp-blend-value" class="tabular-nums">0%</span></label>
+  <input class="form-range" id="cp-blend" type="range" min="0" max="100" value="0">
+  <div class="text-small">Fluorescence: membrane red · nuclei green. Drag to pan when zoomed; click a mask to inspect.</div>
+  <canvas id="cp-canvas" width="1024" height="1024" role="img" aria-label="Brightfield image with GFP and DAPI segmentation boundaries; optional fluorescence blend" style="display:block;width:100%;height:auto;touch-action:none"></canvas>
+  <div id="cp-status" aria-live="polite" class="text-small tabular-nums"></div>
+  <div id="cp-object" aria-live="polite" class="text-small">No object selected.</div>
+  <script type="application/json" id="cp-data">__DATA__</script>
+</div>
+<script>
+(() => {
+ const root=document.getElementById('cellpose-bf-review');
+ const q=id=>root.querySelector('#cp-'+id);
+ const data=JSON.parse(q('data').textContent), canvas=q('canvas'), ctx=canvas.getContext('2d');
+ let field=0, variant='selected', zoom=1, cx=512, cy=512, selected=null, images=[], drag=null;
+ data.fields.forEach((f,i)=>{let o=document.createElement('option');o.value=i;o.textContent=f.name;q('field').append(o);});
+ const colorProbe=document.createElement('span');colorProbe.hidden=true;root.append(colorProbe);
+ function css(name){colorProbe.style.color=`var(${name})`;return getComputedStyle(colorProbe).color;}
+ function path(o){ctx.beginPath();o.p.forEach((v,i)=>i?ctx.lineTo(v[0],v[1]):ctx.moveTo(v[0],v[1]));ctx.closePath();}
+ function clamp(){let h=512/zoom;cx=Math.max(h,Math.min(1024-h,cx));cy=Math.max(h,Math.min(1024-h,cy));}
+ function draw(){
+   const f=data.fields[field], objects=f[variant];
+   ctx.clearRect(0,0,1024,1024);ctx.save();ctx.scale(zoom,zoom);ctx.translate(512/zoom-cx,512/zoom-cy);
+   if(images[0]?.naturalWidth)ctx.drawImage(images[0],0,0,1024,1024);
+   ctx.globalAlpha=Number(q('blend').value)/100;if(images[1]?.naturalWidth)ctx.drawImage(images[1],0,0,1024,1024);ctx.globalAlpha=1;
+   const color=css('--viz-series-1')||css('--blue');
+   if(q('outline').checked||q('fill').checked){
+     for(const o of objects){path(o);ctx.strokeStyle=color;ctx.fillStyle=color;ctx.lineWidth=(o.id===selected?3:1.4)/zoom;
+       if(q('fill').checked||o.id===selected){ctx.globalAlpha=o.id===selected ? .32 : .12;ctx.fill();ctx.globalAlpha=1;}
+       if(q('outline').checked||o.id===selected)ctx.stroke();
+     }
+   }
+   if(q('ids').checked){ctx.font=`${13/zoom}px sans-serif`;ctx.textAlign='center';ctx.fillStyle=css('--viz-series-2')||color;for(const o of objects)ctx.fillText(o.id,o.c[0],o.c[1]);}
+   ctx.restore();
+   q('blend-value').textContent=q('blend').value+'%';
+   q('status').textContent=f.name+' · '+objects.length+' masks · '+(variant==='selected'?data.settings:'Default: diameter unset, cellprob 0, flow 0.4')+(f.warning?' · '+f.warning:'');
+   const o=objects.find(o=>o.id===selected);
+   q('object').textContent=o?`Object ${o.id} · area ${o.a.toLocaleString()} px² · center (${o.c[0]}, ${o.c[1]}) px${o.edge?' · touches image edge':''}`:'No object selected. IDs are specific to each field and settings choice.';
+ }
+ function load(){selected=null;images=[data.fields[field].bf,data.fields[field].fl].map(src=>{const img=new Image();img.onload=draw;img.src=src;return img;});draw();}
+ function save(){window.openai?.setWidgetState?.({modelContent:{field:data.fields[field].name,settings:variant,object:selected},privateContent:{field,variant,zoom,cx,cy,blend:q('blend').value,outline:q('outline').checked,fill:q('fill').checked,ids:q('ids').checked}})?.catch(()=>{});}
+ function restore(state){const s=state?.privateContent;if(!s)return;field=Math.max(0,Math.min(data.fields.length-1,Number(s.field)||0));variant=s.variant==='default'?'default':'selected';zoom=[1,2,4].includes(s.zoom)?s.zoom:1;cx=Number(s.cx)||512;cy=Number(s.cy)||512;clamp();q('field').value=field;q('variant').value=variant;q('zoom').value=zoom;q('blend').value=s.blend||0;['outline','fill','ids'].forEach(k=>{if(typeof s[k]==='boolean')q(k).checked=s[k];});load();}
+ q('field').onchange=()=>{field=Number(q('field').value);cx=cy=512;load();save();};
+ q('variant').onchange=()=>{variant=q('variant').value;selected=null;draw();save();};
+ q('zoom').onchange=()=>{zoom=Number(q('zoom').value);clamp();draw();save();};
+ ['outline','fill','ids','blend'].forEach(k=>{q(k).oninput=draw;q(k).onchange=()=>{draw();save();};});
+ function xy(e){const r=canvas.getBoundingClientRect();return[(e.clientX-r.left)*1024/r.width,(e.clientY-r.top)*1024/r.height];}
+ function inside(x,y,p){let yes=false;for(let i=0,j=p.length-1;i<p.length;j=i++){const a=p[i],b=p[j];if((a[1]>y)!=(b[1]>y)&&x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0])yes=!yes;}return yes;}
+ canvas.onpointerdown=e=>{const p=xy(e);drag={p,cx,cy,moved:false};canvas.setPointerCapture(e.pointerId);};
+ canvas.onpointermove=e=>{if(!drag)return;const p=xy(e),dx=p[0]-drag.p[0],dy=p[1]-drag.p[1];if(Math.abs(dx)+Math.abs(dy)>5)drag.moved=true;cx=drag.cx-dx/zoom;cy=drag.cy-dy/zoom;clamp();draw();};
+ canvas.onpointerup=e=>{if(!drag)return;if(!drag.moved){const p=xy(e),x=cx+(p[0]-512)/zoom,y=cy+(p[1]-512)/zoom;selected=data.fields[field][variant].find(o=>inside(x,y,o.p))?.id??null;}drag=null;draw();save();};
+ canvas.onpointercancel=()=>{drag=null;};
+ new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:['class','style','data-theme']});
+ window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState)restore(e.detail.globals.widgetState);});
+ load();restore(window.openai?.widgetState);
+})();
+</script>

@@ -1,0 +1,587 @@
+[
+  {
+    "file": "images_p000.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      387.0,
+      1310.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p001.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      389.0,
+      1284.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p002.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      390.0,
+      1143.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p003.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      389.0,
+      1408.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p004.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      392.0,
+      1540.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p005.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      388.0,
+      1612.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p006.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      387.0,
+      1728.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p007.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      389.0,
+      1723.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p008.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      391.0,
+      1714.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p009.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      388.0,
+      1272.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p010.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      388.0,
+      1023.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p011.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      387.0,
+      1303.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p012.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      392.0,
+      1487.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p013.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      390.0,
+      1198.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p014.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      387.0,
+      1079.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p015.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      392.0,
+      1230.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p016.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      389.0,
+      1491.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p017.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      390.0,
+      1611.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p018.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      392.0,
+      1535.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p019.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      391.0,
+      1639.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p020.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      395.0,
+      1419.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p021.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      394.0,
+      1373.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p022.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      394.0,
+      1612.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p023.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      392.0,
+      1797.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p024.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      393.0,
+      1498.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p025.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      395.0,
+      1774.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p026.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      395.0,
+      1791.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p027.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      391.0,
+      1274.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p028.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      391.0,
+      1122.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p029.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      390.0,
+      1152.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p030.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      392.0,
+      1500.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p031.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      390.0,
+      1539.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p032.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      393.0,
+      1346.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p033.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      390.0,
+      1175.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p034.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      388.0,
+      1533.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p035.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      393.0,
+      1812.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p036.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      385.0,
+      441.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p037.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      384.0,
+      440.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p038.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      385.0,
+      441.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p039.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      384.0,
+      441.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p040.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      385.0,
+      441.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p041.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      384.0,
+      440.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p042.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      384.0,
+      439.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p043.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      385.0,
+      442.0
+    ],
+    "dtype": "uint16"
+  },
+  {
+    "file": "images_p044.ome.tiff",
+    "shape": [
+      3,
+      1024,
+      1024
+    ],
+    "gfp_p1_p99": [
+      385.0,
+      441.0
+    ],
+    "dtype": "uint16"
+  }
+]

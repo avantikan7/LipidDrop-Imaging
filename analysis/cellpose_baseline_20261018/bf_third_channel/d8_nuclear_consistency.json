@@ -1,0 +1,21 @@
+{
+  "two": {
+    "count": 50,
+    "coverage": 0.3015327453613281,
+    "median_area": 1427.0,
+    "nuclear_candidates": 61,
+    "nuclei_assigned": 51,
+    "masks_with_multiple_nuclear_candidates": 1,
+    "masks_without_nuclear_candidate": 1
+  },
+  "three": {
+    "count": 48,
+    "coverage": 0.24142837524414062,
+    "median_area": 1255.5,
+    "nuclear_candidates": 61,
+    "nuclei_assigned": 47,
+    "masks_with_multiple_nuclear_candidates": 0,
+    "masks_without_nuclear_candidate": 1
+  },
+  "note": "GFP-only automatic masks are diagnostic candidates, not ground truth. Central crop y256:768,x256:768; not the left-half ROI. Mask IDs were relabeled after cropping."
+}
