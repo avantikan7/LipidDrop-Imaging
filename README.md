@@ -1,5 +1,6 @@
 # Neuron imaging workspace
 
+
 Launch `launch_cellpose4_napari.bat` using the existing conda environment
 `confocal_control_gui_cellpose4` (Cellpose 4.2.1.1). The launcher selects this
 workspace's four component folders through PYTHONPATH without modifying shared
