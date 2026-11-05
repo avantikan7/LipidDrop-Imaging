@@ -4,3 +4,9 @@ __pycache__/
 .ruff_cache/
 packages/
 *.env
+
+# Model weights (keep private)
+*.pth
+*.pt
+*.npy
+bodipy_confocal_dino_100ep
