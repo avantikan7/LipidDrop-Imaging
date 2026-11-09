@@ -1,7 +1,7 @@
 {
   "environment": "confocal_control_gui_cellpose4",
   "cellpose": "4.2.1.1",
-  "branch": "neuron_imaging",
+  "branch": "lipid-drop-imaging",
   "components": {
     "cns-control": "5aa970a7a45ca224152887e6874da5aca8f031d9",
     "napari-raman-widget": "3b7cd0918a19cd1702b47ba936055b93e8ad9912",

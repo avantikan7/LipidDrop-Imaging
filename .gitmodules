@@ -1,16 +1,16 @@
 [submodule "cns-control"]
 	path = cns-control
-	url = https://github.com/kkobayashi-lab/cns-control.git
-	branch = neuron_imaging
+	url = https://github.com/avantikan7/cns-control.git
+	branch = lipid-drop-imaging
 [submodule "napari-raman-widget"]
 	path = napari-raman-widget
-	url = https://github.com/kkobayashi-lab/napari-raman-widget.git
-	branch = neuron_imaging
+	url = https://github.com/avantikan7/napari-raman-widget.git
+	branch = lipid-drop-imaging
 [submodule "raman-control"]
 	path = raman-control
-	url = https://github.com/kkobayashi-lab/raman-control.git
-	branch = neuron_imaging
+	url = https://github.com/avantikan7/raman-control.git
+	branch = lipid-drop-imaging
 [submodule "raman-mda-engine"]
 	path = raman-mda-engine
-	url = https://github.com/kkobayashi-lab/raman-mda-engine.git
-	branch = neuron_imaging
+	url = https://github.com/avantikan7/raman-mda-engine.git
+	branch = lipid-drop-imaging
