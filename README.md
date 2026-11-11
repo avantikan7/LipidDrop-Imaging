@@ -1,5 +1,10 @@
+<p align="center">
+  <img src="assets/lipid-droplet-icon.png" width="140" alt="Lipid droplet imaging icon">
+</p>
+
 # Lipid drop imaging workspace
 
+**Adaptive image-guided Raman acquisition and lipid-droplet tracking in adipocytes.**
 
 Launch `launch_cellpose4_napari.bat` using the existing conda environment
 `confocal_control_gui_cellpose4` (Cellpose 4.2.1.1). The launcher selects this
