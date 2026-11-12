@@ -11,13 +11,23 @@ on:
 
 jobs:
   hardware-free-regression:
-    name: Hardware-free droplet regression
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
+    name: ${{ matrix.os }} / Python ${{ matrix.python-version }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 25
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest
+          - windows-latest
+        python-version:
+          - "3.12"
 
     env:
       QT_QPA_PLATFORM: offscreen
       PYTHONUNBUFFERED: "1"
+      PIP_CONSTRAINT: constraints/raman-pc-core.txt
 
     steps:
       - name: Check out workspace and pinned submodules
@@ -29,32 +39,25 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: ${{ matrix.python-version }}
           cache: pip
+          cache-dependency-path: |
+            constraints/raman-pc-core.txt
+            raman-mda-engine/pyproject.toml
+            napari-raman-widget/pyproject.toml
+            cns-control/pyproject.toml
 
-      - name: Install workspace test dependencies
+      - name: Install workspace against Raman-PC constraints
         run: |
           python -m pip install --upgrade pip
           python -m pip install -e "./raman-mda-engine[testing]"
           python -m pip install -e "./cns-control[napari]"
           python -m pip install -e "./napari-raman-widget"
-          # raman-mda-engine imports these at module load but does not yet
-          # declare all of them in its package metadata. Install them explicitly
-          # so this clean, hardware-free CI matches the microscope environment.
-          python -m pip install pytest loguru requests opencv-python-headless scipy matplotlib tqdm
+          python -m pip check
 
       - name: Compile changed acquisition modules
-        run: |
-          python -m py_compile \
-            napari-raman-widget/napari_raman_widget/dry_run.py \
-            napari-raman-widget/napari_raman_widget/field_help.py \
-            napari-raman-widget/napari_raman_widget/unified_mda.py
+        run: python -m py_compile napari-raman-widget/napari_raman_widget/dry_run.py napari-raman-widget/napari_raman_widget/field_help.py napari-raman-widget/napari_raman_widget/unified_mda.py
 
       - name: Run hardware-free lipid regression suite
         working-directory: napari-raman-widget
-        run: |
-          python -m pytest \
-            tests/test_lipid_droplet_autonomy.py \
-            tests/test_dish_workflow.py \
-            tests/test_galvo_voltage.py \
-            -q
+        run: python -m pytest tests/test_lipid_droplet_autonomy.py tests/test_dish_workflow.py tests/test_galvo_voltage.py -q
