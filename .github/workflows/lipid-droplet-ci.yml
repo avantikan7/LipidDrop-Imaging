@@ -60,4 +60,4 @@ jobs:
 
       - name: Run hardware-free lipid regression suite
         working-directory: napari-raman-widget
-        run: python -m pytest tests/test_lipid_droplet_autonomy.py tests/test_dish_workflow.py tests/test_galvo_voltage.py -q
+        run: python -m pytest tests/test_lipid_droplet_autonomy.py tests/test_dish_workflow.py tests/test_dish_navigation.py tests/test_galvo_voltage.py -q
