@@ -38,7 +38,10 @@ jobs:
           python -m pip install -e "./raman-mda-engine[testing]"
           python -m pip install -e "./cns-control[napari]"
           python -m pip install -e "./napari-raman-widget"
-          python -m pip install pytest
+          # raman-mda-engine imports these at module load but does not yet
+          # declare all of them in its package metadata. Install them explicitly
+          # so this clean, hardware-free CI matches the microscope environment.
+          python -m pip install pytest loguru requests opencv-python-headless scipy matplotlib tqdm
 
       - name: Compile changed acquisition modules
         run: |
