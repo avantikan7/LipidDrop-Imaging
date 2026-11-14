@@ -56,8 +56,8 @@ jobs:
           python -m pip check
 
       - name: Compile changed acquisition modules
-        run: python -m py_compile napari-raman-widget/napari_raman_widget/fixed_cell.py napari-raman-widget/napari_raman_widget/dry_run.py napari-raman-widget/napari_raman_widget/field_help.py napari-raman-widget/napari_raman_widget/unified_mda.py
+        run: python -m py_compile napari-raman-widget/napari_raman_widget/workflow_docks.py napari-raman-widget/napari_raman_widget/fixed_cell.py napari-raman-widget/napari_raman_widget/dry_run.py napari-raman-widget/napari_raman_widget/widget.py napari-raman-widget/napari_raman_widget/field_help.py napari-raman-widget/napari_raman_widget/unified_mda.py napari-raman-widget/run_napari.py
 
       - name: Run hardware-free lipid regression suite
         working-directory: napari-raman-widget
-        run: python -m pytest tests/test_fixed_cell_targeting.py tests/test_lipid_droplet_autonomy.py tests/test_dish_workflow.py tests/test_dish_navigation.py tests/test_galvo_voltage.py -q
+        run: python -m pytest tests/test_workflow_layout.py tests/test_fixed_cell_targeting.py tests/test_lipid_droplet_autonomy.py tests/test_dish_workflow.py tests/test_dish_navigation.py tests/test_galvo_voltage.py -q
